@@ -1,0 +1,77 @@
+@media (max-width: 768px) {
+  .con_about {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .home-section {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .section_home {
+    width: 100%;
+  }
+
+  .home-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .home-section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    flex-wrap: nowrap;
+  }
+
+  .section_about {
+    margin-top: 30px;
+  }
+
+  .section_about h2 {
+    font-size: 1.1rem;
+  }
+
+  .section_about p {
+    font-size: 0.9rem;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .profile-pic {
+    order: 2;
+  }
+
+  .intro-text {
+    order: 1;
+  }
+
+  .profile-pic img {
+    margin-top: 20px;
+    width: 80%;
+    max-width: 300px;
+    height: auto;
+  }
+
+  .name {
+    font-size: 25px;
+  }
+
+  .about_img {
+    display: none;
+  }
+
+  .section_experience .about_ex .about_Front .about_skill {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5rem;
+  }
+}
